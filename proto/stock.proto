@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package stockrpc;
+
+option go_package = "./proto";
+
+service stockAnalyser {
+  rpc GetStockDetail (Stockrequest) returns (StockResponse);
+}
+
+message Stockrequest {
+  string symbol = 1;
+}
+
+message StockResponse {
+  string message = 1;
+}
