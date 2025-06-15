@@ -9,8 +9,9 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"stock-rpc/server/operations/overview"
-	"stock-rpc/server/utils"
+	"github.com/ritikkoul0/stock-rpc/server/utils"
+
+	"github.com/ritikkoul0/stock-rpc/server/operations/overview"
 )
 
 var DB *sql.DB

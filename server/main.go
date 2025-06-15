@@ -10,12 +10,16 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
-	"stock-rpc/database"
-	"stock-rpc/logger"
-	pb "stock-rpc/proto"
-	"stock-rpc/server/operations/overview"
-	"stock-rpc/server/utils"
 	"syscall"
+
+	"github.com/ritikkoul0/stock-rpc/logger"
+	"github.com/ritikkoul0/stock-rpc/server/operations/overview"
+
+	"github.com/ritikkoul0/stock-rpc/server/utils"
+
+	pb "github.com/ritikkoul0/stock-rpc/proto"
+
+	"github.com/ritikkoul0/stock-rpc/database"
 
 	"google.golang.org/grpc"
 )

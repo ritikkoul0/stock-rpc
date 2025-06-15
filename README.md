@@ -1,1 +1,1 @@
-# stock-rpc
+# github.com/ritikkoul0/stock-rpc

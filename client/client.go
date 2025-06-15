@@ -3,7 +3,8 @@ package main
 import (
 	"context"
 	"log"
-	pb "stock-rpc/proto"
+
+	pb "github.com/ritikkoul0/stock-rpc/proto"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
